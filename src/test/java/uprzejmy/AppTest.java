@@ -1,6 +1,6 @@
 package uprzejmy;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -15,6 +15,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        int x = 5;
+        assertEquals(5, x);
     }
 }
