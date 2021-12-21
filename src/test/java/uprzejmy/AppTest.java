@@ -13,9 +13,16 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void intTestShouldAnswerWithTrue()
     {
         int x = 5;
         assertEquals(5, x);
+    }
+
+    @Test
+    public void stringTestShouldAnswerWithTrue()
+    {
+        String x = "test string";
+        assertEquals("test string", x);
     }
 }
